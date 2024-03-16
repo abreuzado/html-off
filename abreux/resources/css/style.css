@@ -1,0 +1,46 @@
+.custom-loader {
+    width:12px;
+    height:12px;
+    background: #F4F4F4;
+    border-radius: 50%;
+    box-shadow: 20px 0 #F4F4F422,-20px 0 #F4F4F4;
+    animation:d5 1s infinite linear alternate;
+  }
+  @keyframes d5 {
+      0% {box-shadow: 20px 0 #F4F4F4,-20px 0 #F4F4F422;background: #F4F4F4}
+      33%{box-shadow: 20px 0 #F4F4F4,-20px 0 #F4F4F422;background: #F4F4F422}
+      66%{box-shadow: 20px 0 #F4F4F422,-20px 0 #F4F4F4;background: #F4F4F422}
+  }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    background-image: linear-gradient(rgb(255, 255, 255), black);
+    background-image: url('https://img.freepik.com/fotos-premium/ceu-azul-das-arvores-nevadas-da-paisagem-do-inverno_128867-2024.jpg?w=900');
+    backdrop-filter: blur(4px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
+h1 {
+    color: #F4F4F4;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+    text-align: center;
+}
+.a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0004;
+    height: auto;
+    width: auto;
+    padding: 6vh;
+    border-radius: 20px;
+    box-shadow: #0006 0px 0px 100px;
+}
